@@ -1,13 +1,13 @@
-defmodule Hello.Repo do
+defmodule Rumbl.Repo do
   @moduledoc """
   In memory repository.
   """
 
-  def all(Hello.User) do
-    [%Hello.User{id: "1", name: "Jose", username: "josevalim", password: "elxir"},
-     %Hello.User{id: "2", name: "Bruce", username: "redrapids", password: "7langs"},
-     %Hello.User{id: "3", name: "Chris", username: "chrismccord", password: "phx"},
-     %Hello.User{id: "3", name: "Chris2", username: "chrismccord", password: "phx"}]
+  def all(Rumbl.User) do
+    [%Rumbl.User{id: "1", name: "Jose", username: "josevalim", password: "elxir"},
+     %Rumbl.User{id: "2", name: "Bruce", username: "redrapids", password: "7langs"},
+     %Rumbl.User{id: "3", name: "Chris", username: "chrismccord", password: "phx"},
+     %Rumbl.User{id: "3", name: "Chris2", username: "chrismccord", password: "phx"}]
   end
   def all(_module), do: []
 

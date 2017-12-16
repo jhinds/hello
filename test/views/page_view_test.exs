@@ -1,3 +1,3 @@
-defmodule Hello.PageViewTest do
-  use Hello.ConnCase, async: true
+defmodule Rumbl.PageViewTest do
+  use Rumbl.ConnCase, async: true
 end

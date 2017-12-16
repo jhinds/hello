@@ -1,12 +1,12 @@
-defmodule Hello.Web do
+defmodule Rumbl.Web do
   @moduledoc """
   A module that keeps using definitions for controllers,
   views and so on.
 
   This can be used in your application as:
 
-      use Hello.Web, :controller
-      use Hello.Web, :view
+      use Rumbl.Web, :controller
+      use Rumbl.Web, :view
 
   The definitions below will be executed for every view,
   controller, etc, so keep them short and clean, focused
@@ -30,12 +30,12 @@ defmodule Hello.Web do
     quote do
       use Phoenix.Controller
 
-      alias Hello.Repo
+      alias Rumbl.Repo
       import Ecto
       import Ecto.Query
 
-      import Hello.Router.Helpers
-      import Hello.Gettext
+      import Rumbl.Router.Helpers
+      import Rumbl.Gettext
     end
   end
 
@@ -49,9 +49,9 @@ defmodule Hello.Web do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import Hello.Router.Helpers
-      import Hello.ErrorHelpers
-      import Hello.Gettext
+      import Rumbl.Router.Helpers
+      import Rumbl.ErrorHelpers
+      import Rumbl.Gettext
     end
   end
 
@@ -65,10 +65,10 @@ defmodule Hello.Web do
     quote do
       use Phoenix.Channel
 
-      alias Hello.Repo
+      alias Rumbl.Repo
       import Ecto
       import Ecto.Query
-      import Hello.Gettext
+      import Rumbl.Gettext
     end
   end
 

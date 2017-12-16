@@ -1,5 +1,5 @@
-defmodule Hello.HelloController do
-  use Hello.Web, :controller
+defmodule Rumbl.RumblController do
+  use Rumbl.Web, :controller
 
   def world(conn, %{"name" => name}) do
     render conn, "world.html", name: name

@@ -1,3 +1,3 @@
-defmodule Hello.HelloView do
-  use Hello.Web, :view
+defmodule Rumbl.RumblView do
+  use Rumbl.Web, :view
 end
