@@ -1,4 +1,8 @@
-# Hello
+# Rumbl
+
+This project follows along Chris Mccord & Friend's Programming in Phoenix Book.
+The main project is Rumbl which is an app that shows a live chat box next to a video hosted on another site.
+
 
 To start your Phoenix app:
 
